@@ -1,0 +1,14 @@
+.carabiner-img{
+    width: 150px;
+}
+
+.czmp-page-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.czmp-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
