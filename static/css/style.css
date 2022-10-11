@@ -1,5 +1,17 @@
+#czmp-background {
+    background-image: url('../assets/mescalito.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .carabiner-img{
     width: 150px;
+}
+
+.czmp-page-header{
+    display: flex;
+    justify-content: space-around;
 }
 
 .czmp-page-content{
@@ -7,8 +19,12 @@
     justify-content: space-around;
 }
 
-.czmp-col{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.czmp-container{
+    background: navajowhite;
+    opacity: 0.75;
+}
+
+.czmp-container *{
+    font-weight: bold;
+    color: firebrick
 }
