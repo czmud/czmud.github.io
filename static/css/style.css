@@ -5,26 +5,45 @@
     background-size: cover;
 }
 
-.carabiner-img{
-    width: 150px;
+.czmp-screenshots{
+    width: 90%;
 }
-
 .czmp-page-header{
-    display: flex;
-    justify-content: space-around;
-}
-
-.czmp-page-content{
     display: flex;
     justify-content: space-around;
 }
 
 .czmp-container{
     background: navajowhite;
-    opacity: 0.75;
 }
 
 .czmp-container *{
-    font-weight: bold;
-    color: firebrick
+    color: firebrick;
+}
+
+.advcn-header{
+    background: #c9e7ca;
+    width: 100%;
+}
+
+.advcn-header *{
+    color: purple;
+}
+
+.cmcrm-header{
+    background: #546DFF;
+    width: 100%;
+}
+
+.cmcrm-header *{
+    color: #212529;
+}
+
+.scqm-header{
+    background: #198754;
+    width: 100%;
+}
+
+.scqm-header *{
+    color: white;
 }
