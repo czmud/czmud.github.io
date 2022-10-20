@@ -10,34 +10,71 @@
 </head>
 <body id="czmp-background">
     <div class="czmp-page-header">
-        <div class="col-6 my-4 p-3 d-flex flex-column align-items-center rounded czmp-container">
-            <h1>Welcome to the master point!</h1>
-            <p>Feel free to hangout for a bit and checkout some of Caleb's most recent projects.</p>
+        <div class="col-8 mt-4 mb-5 p-3 d-flex flex-column align-items-center rounded czmp-container">
+            <h1>Welcome to the Master Point</h1>
+            <p>Below you can find a list of my current projects with screenshots and descriptions to demonstration functionality. Each project also contains an external link to its github repository and a live deployment.</p>
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-8 mx-5 my-3 px-0 d-flex flex-column align-items-center rounded czmp-container">
+        <div class="col-8 mx-5 my-3 px-0 pb-4 d-flex flex-column align-items-center rounded czmp-container">
             <div class="d-flex align-items-center justify-content-between scqm-header rounded-top p-3">
-                <a href="http://52.201.238.8/" target="_blank">
-                    <h3 class="px-2">SCQuorum</h3>
-                </a>
-                <a href="https://github.com/czmud/SCQuorum" target="_blank">Github Repo</a>
+                <h3 class="px-2 py-0">SCQuorum</h3>
+                <span>
+                    <a class="mx-1" href="https://github.com/czmud/SCQuorum" target="_blank">Github</a>
+                    <a class="mx-1" href="http://52.201.238.8/" target="_blank">Deployment</a>
+                </span>
             </div>
-        </div>
-        <div class="col-8 mx-5 my-3 px-0 d-flex flex-column align-items-center rounded czmp-container">
-            <div class="d-flex align-items-center justify-content-between cmcrm-header rounded-top p-3">
-                <a href="http://52.55.8.121/" target="_blank">
-                    <h3>CamCram</h3>
-                </a>
-                <a href="https://github.com/czmud/camCram" target="_blank">Github Repo</a>
+            <div class="px-2 d-flex flex-column align-items-center">
+                <h5 class="m-4">Supreme Court Quorum is a platform designed to give users the ability to easily access primary source documents and read in a user friendly environment.</h5>
+                <table class="table table-primary w-75 mb-5 mt-4">
+                    <thead class="table-active">
+                        <tr>
+                            <th class="align-middle" colspan="2">Technology</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Languages</th>
+                            <td>Python</td>
+                        </tr>
+                        <tr>
+                            <th>Frameworks</th>
+                            <td> Flask, Jinja2, Bootstrap</td>
+                        </tr>
+                        <tr>
+                            <th>Deployment</th>
+                            <td>AWS Ubuntu EC2 running Gunicorn, Nginx </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="czmp-desc">To begin, users create an account with full login/registration functionality</p>
+                <img class="czmp-screenshots rounded my-3" src="static/assets/scquorum/login.png" alt="login-page">
+                <p class="czmp-desc">Next, users can view their Library. This is where you can keep track of posts, notes, and a list of the documents you are currently reading.</p>
+                <img class="czmp-screenshots rounded my-3" src="static/assets/scquorum/library.png" alt="library-page">
+                <p class="czmp-desc">The archives section will maintain a running list</p>
+                <img class="czmp-screenshots rounded my-3" src="static/assets/scquorum/archives.png" alt="archives">
+                <p class="czmp-desc">Similar to most social media sites, on the Friends Tab you can connect with other users, view your own friends, and respond to requests.</p>
+                <img class="czmp-screenshots rounded my-3" src="static/assets/scquorum/friends.png" alt="friends-page">
+                <p class="czmp-desc">Finally, the Quorum is where you can view the posts from all your friends.</p>
+                <img class="czmp-screenshots rounded my-3" src="static/assets/scquorum/quorum.png" alt="archives-page">
             </div>
         </div>
         <div class="col-8 mx-5 my-3 px-0 d-flex flex-column align-items-center rounded czmp-container">
             <div class="d-flex align-items-center justify-content-between advcn-header rounded-top p-3">
-                <a href="https://adventure-connect.vercel.app/" target="_blank">
-                    <h3>Adventure Connect</h3>
-                </a>
-                <a href="https://github.com/czmud/adventureConnect" target="_blank">Github Repo</a>
+                <h3 class="px-2 py-0">Adventure Connect</h3>
+                <span>
+                    <a class="mx-1" href="https://github.com/czmud/adventureConnect" target="_blank">Github</a>
+                    <a class="mx-1" href="https://adventure-connect.vercel.app/" target="_blank">Deployment</a>
+                </span>
+            </div>
+        </div>
+        <div class="col-8 mx-5 my-3 px-0 d-flex flex-column align-items-center rounded czmp-container">
+            <div class="d-flex align-items-center justify-content-between cmcrm-header rounded-top p-3">
+                <h3 class="px-2 py-0">CamCram</h3>
+                <span>
+                    <a class="mx-1" href="https://github.com/czmud/camCram" target="_blank">Github</a>
+                    <a class="mx-1" href="http://52.55.8.121/" target="_blank">Deployment</a>
+                </span>
             </div>
         </div>
     </div>
