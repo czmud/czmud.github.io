@@ -4,9 +4,12 @@
     background-attachment: fixed;
     background-size: cover;
 }
-
+.czmp-desc{
+    width: 90%;
+}
 .czmp-screenshots{
     width: 90%;
+    border: 2px solid black;
 }
 .czmp-page-header{
     display: flex;
@@ -14,11 +17,11 @@
 }
 
 .czmp-container{
-    background: navajowhite;
+    background: cornsilk;
 }
 
 .czmp-container *{
-    color: firebrick;
+    color: black;
 }
 
 .advcn-header{
@@ -47,3 +50,4 @@
 .scqm-header *{
     color: white;
 }
+
